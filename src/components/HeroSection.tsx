@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, ShieldCheck, Zap, Lock, Sparkles } from 'lucide-react';
 import { HERO_BULLETS, HOTMART_CHECKOUT_URL } from '../data/copyData';
+import claridadMockupImg from '../assets/images/claridad_mockup_1789494552962.jpg';
 
 interface HeroSectionProps {
   onCtaClick?: () => void;
@@ -43,7 +44,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onCtaClick }) => {
             Diagnóstico activo en 5 min
           </div>
           <img
-            src="/src/assets/images/claridad_mockup_1789494552962.jpg"
+            src={claridadMockupImg}
             alt="Mapa de Claridad - Interfaz de la aplicación en pantalla digital"
             referrerPolicy="no-referrer"
             className="w-full h-auto object-cover max-h-[460px] transform transition-transform duration-700 hover:scale-[1.01]"

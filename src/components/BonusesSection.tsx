@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BONUSES, HOTMART_CHECKOUT_URL } from '../data/copyData';
 import { BonusItem } from '../types';
 import { Headphones, Sparkles, CheckSquare, ShieldAlert, Play, Pause, ArrowRight, X, Send } from 'lucide-react';
+import bonosPackImg from '../assets/images/bonos_pack_1789494591236.jpg';
 
 interface BonusesSectionProps {
   onCtaClick?: () => void;
@@ -67,7 +68,7 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onCtaClick }) =>
         {/* Visual presentation image for BONOS as requested */}
         <div className="mb-12 rounded-2xl overflow-hidden border border-stone-200 shadow-lg bg-stone-100">
           <img
-            src="/src/assets/images/bonos_pack_1789494591236.jpg"
+            src={bonosPackImg}
             alt="Paquete de Bonos Exclusivos - Mapa de Claridad"
             referrerPolicy="no-referrer"
             className="w-full h-auto object-cover max-h-[420px]"

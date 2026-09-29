@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Heart, Sparkles, ShieldCheck } from 'lucide-react';
 import { HOTMART_CHECKOUT_URL } from '../data/copyData';
+import vuelveATiImg from '../assets/images/vuelve_a_ti_1789494570720.jpg';
 
 interface VuelveATiSectionProps {
   onCtaClick?: () => void;
@@ -26,7 +27,7 @@ export const VuelveATiSection: React.FC<VuelveATiSectionProps> = ({ onCtaClick }
         {/* Emotion-evoking imagery requested by copy */}
         <div className="mx-auto max-w-2xl mb-12 rounded-3xl overflow-hidden border-2 border-stone-800 shadow-2xl relative group">
           <img
-            src="/src/assets/images/vuelve_a_ti_1789494570720.jpg"
+            src={vuelveATiImg}
             alt="Vuelve a ti - Despertar en tranquilidad y a tu propio ritmo"
             referrerPolicy="no-referrer"
             className="w-full h-auto object-cover max-h-[440px] transform transition-transform duration-700 group-hover:scale-105"
