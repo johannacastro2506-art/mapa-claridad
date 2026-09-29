@@ -1,0 +1,6 @@
+{
+  "name": "Mapa de Claridad",
+  "description": "Mini-app que identifica tus bloqueos invisibles y genera tu hoja de ruta personalizada para recuperar el control en 5 minutos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
